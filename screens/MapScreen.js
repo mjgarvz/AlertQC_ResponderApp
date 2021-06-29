@@ -47,10 +47,6 @@ export default class MapScreen extends Component {
           >
             <CallButton style={styles.centButt}>
               <Pressable
-                // onPressIn={() => {
-                //   this.setState({ follow: true });
-                //   console.log(this.state);
-                // }}
                 onPress={() => {
                   this.setState({ follow: true });
                   console.log(this.state);
