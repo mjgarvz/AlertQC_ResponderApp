@@ -13,6 +13,7 @@ import HomeScreen from "./HomeScreen";
 import MapScreen from "./MapScreen";
 import ChatScreen from "./ChatScreen";
 import IncidentScreen from "./IncidentScreen";
+import MapNavScreen from "./MapNavScreen";
 
 //landing
 import CreateChatScreen from "./CreateChatScreen";
@@ -121,7 +122,7 @@ const MapStackScreen = ({ navigation }) => (
   >
     <MapStack.Screen
       name="Map"
-      component={MapScreen}
+      component={MapNavScreen}
       options={{
         title: "Navigation Map",
         headerTitleAlign: "center",

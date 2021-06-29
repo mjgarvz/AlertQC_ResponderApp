@@ -1,4 +1,8 @@
 rootProject.name = 'Nav5Demo'
+include ':@homee_react-native-mapbox-navigation'
+project(':@homee_react-native-mapbox-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/@homee/react-native-mapbox-navigation/android')
+include ':@homee_react-native-mapbox-navigation'
+project(':@homee_react-native-mapbox-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/@homee/react-native-mapbox-navigation/android')
 
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 includeUnimodulesProjects()
