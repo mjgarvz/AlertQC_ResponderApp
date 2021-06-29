@@ -17,6 +17,9 @@
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="https://exp.host/@mj_garvz/Nav5Demo"/>
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="41.0.0"/>
     <meta-data android:name="expo.modules.updates.ENABLED" android:value="true"/>
+    <!--Mapbox-->
+    <meta-data android:name="MAPBOX_ACCESS_TOKEN" android:value="pk.eyJ1IjoiY2Fwc3RvbmVmZXV0dXJlIiwiYSI6ImNrb3d1aTU0YjA4YnYyd213cmdrb3R5aHkifQ.PI0qIRy-li9l1QNq0ZjT3A" />
+    <!--Mapbox-->
     <meta-data android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH" android:value="ALWAYS"/>
     <meta-data android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS" android:value="0"/>
     <activity android:name=".MainActivity" android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:theme="@style/Theme.App.SplashScreen" android:screenOrientation="portrait">
